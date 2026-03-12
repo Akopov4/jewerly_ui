@@ -6,6 +6,22 @@
 
 ---
 
+## Screenshots
+
+**Python**
+![Python](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_python.png)
+
+**TypeScript**
+![TypeScript](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_ts.png)
+
+**C++**
+![C++](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_cpp.png)
+
+**HTML**
+![HTML](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_html.png)
+
+---
+
 ## Color Palette
 
 | Token                        | Color     | Preview |
@@ -67,7 +83,7 @@ JewelryUI also ships with sensible editor defaults:
 Search **JewelryUI** in the VS Code Extensions panel, or:
 
 ```bash
-code --install-extension akop.jewelryui
+code --install-extension Akop4.jewelryui
 ```
 
 Then `Ctrl+Shift+P` → **Preferences: Color Theme** → **JewelryUI**.
@@ -86,4 +102,4 @@ Open an issue at [github.com/Akopov4/jewerly_ui/issues](https://github.com/Akopo
 
 ## License
 
-[MIT](LICENSE) © 2026 akop
+[MIT](LICENSE) © 2026 Akop4
