@@ -1,0 +1,70 @@
+{
+  "name": "jewelryui",
+  "displayName": "JewelryUI",
+  "description": "Obsidian-inspired syntax highlighting — dark, rich, and precisely cut like a gem. Supports Python, Java, JavaScript, TypeScript, CSS, HTML, C, C++, Rust, YAML, TOML, Bash, Dockerfile and Docker Compose.",
+  "version": "1.0.0",
+  "publisher": "akop",
+  "author": {
+    "name": "akop"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Akopov4/jewerly_ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akopov4/jewerly_ui"
+  },
+  "bugs": {
+    "url": "https://github.com/Akopov4/jewerly_ui/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "obsidian",
+    "syntax",
+    "color-theme",
+    "jewelry",
+    "catppuccin"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JewelryUI",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-syntax-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "workbench.tree.indent": 20,
+      "workbench.tree.renderIndentGuides": "always",
+      "workbench.editor.empty.hint": "hidden",
+      "window.zoomLevel": 1,
+      "window.density.editorTabHeight": "compact",
+      "files.autoSave": "afterDelay",
+      "files.autoSaveDelay": 5000,
+      "terminal.integrated.minimumContrastRatio": 7,
+      "editor.fontSize": 14,
+      "editor.mouseWheelZoom": true,
+      "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+      "typescript.tsserver.log": "off",
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "typescript.suggest.autoImports": true,
+      "javascript.suggest.autoImports": true,
+      "typescript.suggest.completeFunctionCalls": true,
+      "javascript.suggest.completeFunctionCalls": true,
+      "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+      "javascript.suggest.includeAutomaticOptionalChainCompletions": true
+    }
+  }
+}
