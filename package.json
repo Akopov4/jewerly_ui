@@ -2,7 +2,7 @@
   "name": "jewelryui",
   "displayName": "JewelryUI",
   "description": "Obsidian-inspired syntax highlighting — dark, rich, and precisely cut like a gem. Supports Python, Java, JavaScript, TypeScript, CSS, HTML, C, C++, Rust, YAML, TOML, Bash, Dockerfile and Docker Compose.",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "publisher": "Akop4",
   "author": {
     "name": "Akop4"
@@ -39,9 +39,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "JewelryUI",
+        "label": "Jewelry",
         "uiTheme": "vs-dark",
         "path": "./themes/obsidian-syntax-color-theme.json"
+      },
+      {
+        "label": "Ocean Jewelry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-ocean-color-theme.json"
       }
     ],
     "configurationDefaults": {
