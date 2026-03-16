@@ -22,7 +22,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 ![Jewelry — Python](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_python_Jewelry.png)
 
 ### 🌊 Ocean Jewelry
-![Ocean Jewelry — Python](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/screeshots/Screenshot_python_Ocean.png)
+![Ocean Jewelry — Python](https://raw.githubusercontent.com/Akopov4/jewerly_ui/main/themes/jewerly_ui/screeshots/Screenshot_python_Ocean.png)
 
 ---
 
