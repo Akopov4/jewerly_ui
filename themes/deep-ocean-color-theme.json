@@ -734,10 +734,17 @@
       "name": "XML \u2014 tag punctuation (< > </ />)",
       "scope": [
         "punctuation.definition.tag.begin.xml",
-        "punctuation.definition.tag.end.xml"
+        "punctuation.definition.tag.end.xml",
+        "punctuation.definition.tag.xml",
+        "meta.tag.xml punctuation.definition.tag",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "meta.tag punctuation.definition.tag.begin",
+        "meta.tag punctuation.definition.tag.end",
+        "text.xml meta.tag punctuation"
       ],
       "settings": {
-        "foreground": "#8b949e"
+        "foreground": "#ffa657"
       }
     },
     {
@@ -787,7 +794,7 @@
         "punctuation.definition.string.end.xml"
       ],
       "settings": {
-        "foreground": "#484f58"
+        "foreground": "#ffa657"
       }
     },
     {

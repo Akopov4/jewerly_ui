@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.5] — 2026-03-16
+
+### Changed
+- Ocean Jewelry: XML tag punctuation (`<`, `>`, `</`, `/>`) changed to amber `#ffa657`
+- Ocean Jewelry: CDATA blocks (`<![CDATA[ ... ]]>`) changed to amber `#ffa657`
+
 ## [1.2.2] — 2026-03-12
 
 ### Added
