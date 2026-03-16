@@ -14,7 +14,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#484f58",
+        "foreground": "#8b949e",
         "fontStyle": "italic"
       }
     },
@@ -612,7 +612,7 @@
         "comment.line.number-sign.toml"
       ],
       "settings": {
-        "foreground": "#484f58",
+        "foreground": "#8b949e",
         "fontStyle": "italic"
       }
     },
@@ -622,7 +622,7 @@
         "comment.line.shebang"
       ],
       "settings": {
-        "foreground": "#ff9bce",
+        "foreground": "#8b949e",
         "fontStyle": "bold"
       }
     },
@@ -867,7 +867,7 @@
     "regexp": "#39d4c5",
     "operator": "#39d4c5",
     "comment": {
-      "foreground": "#484f58",
+      "foreground": "#8b949e",
       "italic": true
     },
     "lifetime": "#ff9bce",
