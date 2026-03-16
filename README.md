@@ -61,7 +61,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 | Parameters           | `#cae8ff` | 🩵 Pale Blue |
 | `this` / `self`      | `#ff9bce` | 🩷 Pink      |
 | Decorators / macros  | `#ff9bce` | 🩷 Pink      |
-| Comments             | `#484f58` | ⬜ Dark Grey |
+| Comments             | `#8b949e` | ⬜ Light Grey |
 | Errors               | `#ff7b72` | 🔴 Coral     |
 
 ---
