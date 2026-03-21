@@ -744,7 +744,7 @@
         "text.xml meta.tag punctuation"
       ],
       "settings": {
-        "foreground": "#ffa657"
+        "foreground": "#39d4c5"
       }
     },
     {
@@ -794,7 +794,7 @@
         "punctuation.definition.string.end.xml"
       ],
       "settings": {
-        "foreground": "#ffa657"
+        "foreground": "#39d4c5"
       }
     },
     {

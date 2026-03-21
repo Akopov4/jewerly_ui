@@ -101,12 +101,12 @@ Both themes provide full XML tokenization including:
 | Token                          | Jewelry     | Ocean Jewelry |
 |--------------------------------|-------------|---------------|
 | Tag names                      | `#f38ba8` 🔴 | `#ff7b72` 🔴  |
-| Tag punctuation (`<` `>` `/>`) | `#9399b2` ⬜ | `#ffa657` 🟠  |
+| Tag punctuation (`<` `>` `/>`) | `#9399b2` ⬜ | `#39d4c5` 🩵  |
 | Attribute names                | `#89b4fa` 🔵 | `#79c0ff` 🔵  |
 | Attribute values               | `#a6e3a1` 🟢 | `#56d364` 🟢  |
 | Namespace prefix               | `#f9e2af` 🟡 | `#ffa657` 🟠  |
 | Entity references              | `#fab387` 🟠 | `#f0883e` 🟠  |
-| CDATA blocks                   | `#6c7086` ⬜ | `#ffa657` 🟠  |
+| CDATA blocks                   | `#6c7086` ⬜ | `#39d4c5` 🩵  |
 | Processing instructions        | `#f5c2e7` 🩷 | `#ff9bce` 🩷  |
 
 ---
