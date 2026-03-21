@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.7] — 2026-03-22
+
+### Added
+- Gherkin (.feature) support for both Jewelry and Ocean Jewelry themes
+- Highlighted tokens: keywords (Feature, Scenario, Given, When, Then, And, But),
+  scenario titles, step text, parameters, tags (@tag), data table pipes and cells,
+  docstrings, comments, and Examples keyword
+
 ## [1.2.5] — 2026-03-16
 
 ### Changed
