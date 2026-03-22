@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.10] — 2026-03-22
+
+### Changed
+- Ocean Jewelry: XML tag punctuation (`<`, `>`, `</`, `/>`) changed to teal `#39d4c5`
+- Ocean Jewelry: CDATA blocks (`<![CDATA[ ... ]]>`) changed to teal `#39d4c5`
+
 ## [1.2.7] — 2026-03-22
 
 ### Added
