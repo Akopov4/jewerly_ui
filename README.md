@@ -86,6 +86,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 | **Dockerfile**      | Instructions, ARG/ENV, multi-stage builds            |
 | **Docker Compose**  | Services, volumes, networks, anchors                 |
 | **Gherkin**         | Keywords, tags, data tables, docstrings, parameters  |
+| **INI**             | Section headers, keys, values, numbers, booleans, comments |
 
 ### XML Highlights
 
@@ -129,6 +130,42 @@ Both themes support `.feature` files with full Gherkin tokenization:
 | Comments                       | `#6c7086` ⬜ italic | `#8b949e` ⬜ italic |
 
 > Requires the **Cucumber (Gherkin) Full Support** or **Gherkin** VS Code extension for syntax tokenization.
+
+---
+
+## Terminal Colors
+
+Both themes include a full integrated terminal palette — works on **Windows, Linux and macOS**.
+
+### 💎 Jewelry
+
+| Color    | Normal      | Bright      |
+|----------|-------------|-------------|
+| Black    | `#45475a`   | `#585b70`   |
+| Red      | `#f38ba8`   | `#f38ba8`   |
+| Green    | `#a6e3a1`   | `#a6e3a1`   |
+| Yellow   | `#f9e2af`   | `#f9e2af`   |
+| Blue     | `#89b4fa`   | `#89b4fa`   |
+| Magenta  | `#cba6f7`   | `#cba6f7`   |
+| Cyan     | `#94e2d5`   | `#94e2d5`   |
+| White    | `#bac2de`   | `#cdd6f4`   |
+
+- Background: `#1e1e2e` · Foreground: `#cdd6f4` · Cursor: `#f5c2e7`
+
+### 🌊 Ocean Jewelry
+
+| Color    | Normal      | Bright      |
+|----------|-------------|-------------|
+| Black    | `#21262d`   | `#484f58`   |
+| Red      | `#ff7b72`   | `#ff7b72`   |
+| Green    | `#56d364`   | `#56d364`   |
+| Yellow   | `#ffa657`   | `#f0883e`   |
+| Blue     | `#79c0ff`   | `#79c0ff`   |
+| Magenta  | `#ff9bce`   | `#ff9bce`   |
+| Cyan     | `#39d4c5`   | `#39d4c5`   |
+| White    | `#cae8ff`   | `#ffffff`   |
+
+- Background: `#0d1117` · Foreground: `#cae8ff` · Cursor: `#ff9bce`
 
 ---
 

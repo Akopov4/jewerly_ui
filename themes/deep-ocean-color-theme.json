@@ -2,7 +2,30 @@
   "name": "Ocean Jewelry",
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
-  "colors": {},
+  "colors": {
+    "terminal.background": "#0d1117",
+    "terminal.foreground": "#cae8ff",
+    "terminalCursor.foreground": "#ff9bce",
+    "terminalCursor.background": "#0d1117",
+    "terminal.selectionBackground": "#1f3d5c88",
+    "terminal.inactiveSelectionBackground": "#1f3d5c44",
+    "terminal.ansiBlack": "#21262d",
+    "terminal.ansiRed": "#ff7b72",
+    "terminal.ansiGreen": "#56d364",
+    "terminal.ansiYellow": "#ffa657",
+    "terminal.ansiBlue": "#79c0ff",
+    "terminal.ansiMagenta": "#ff9bce",
+    "terminal.ansiCyan": "#39d4c5",
+    "terminal.ansiWhite": "#cae8ff",
+    "terminal.ansiBrightBlack": "#484f58",
+    "terminal.ansiBrightRed": "#ff7b72",
+    "terminal.ansiBrightGreen": "#56d364",
+    "terminal.ansiBrightYellow": "#f0883e",
+    "terminal.ansiBrightBlue": "#79c0ff",
+    "terminal.ansiBrightMagenta": "#ff9bce",
+    "terminal.ansiBrightCyan": "#39d4c5",
+    "terminal.ansiBrightWhite": "#ffffff"
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -947,6 +970,87 @@
       "settings": {
         "foreground": "#79c0ff",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "INI \u2014 section header ([section])",
+      "scope": [
+        "entity.name.section.ini",
+        "entity.name.section.group-title.ini",
+        "punctuation.definition.section.ini",
+        "keyword.other.section.ini",
+        "meta.section.ini"
+      ],
+      "settings": {
+        "foreground": "#ffa657",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "INI \u2014 key name",
+      "scope": [
+        "keyword.other.key.ini",
+        "support.type.property-name.ini",
+        "variable.other.key.ini",
+        "entity.name.tag.ini"
+      ],
+      "settings": {
+        "foreground": "#79c0ff"
+      }
+    },
+    {
+      "name": "INI \u2014 equals sign",
+      "scope": [
+        "punctuation.separator.key-value.ini",
+        "keyword.operator.ini"
+      ],
+      "settings": {
+        "foreground": "#8b949e"
+      }
+    },
+    {
+      "name": "INI \u2014 string value",
+      "scope": [
+        "string.quoted.double.ini",
+        "string.quoted.single.ini",
+        "string.unquoted.ini"
+      ],
+      "settings": {
+        "foreground": "#56d364"
+      }
+    },
+    {
+      "name": "INI \u2014 number value",
+      "scope": [
+        "constant.numeric.ini",
+        "constant.numeric.integer.ini",
+        "constant.numeric.float.ini"
+      ],
+      "settings": {
+        "foreground": "#f0883e"
+      }
+    },
+    {
+      "name": "INI \u2014 boolean value",
+      "scope": [
+        "constant.language.boolean.ini",
+        "constant.language.true.ini",
+        "constant.language.false.ini"
+      ],
+      "settings": {
+        "foreground": "#f0883e"
+      }
+    },
+    {
+      "name": "INI \u2014 comment (# and ;)",
+      "scope": [
+        "comment.line.number-sign.ini",
+        "comment.line.semicolon.ini",
+        "punctuation.definition.comment.ini"
+      ],
+      "settings": {
+        "foreground": "#8b949e",
+        "fontStyle": "italic"
       }
     },
     {

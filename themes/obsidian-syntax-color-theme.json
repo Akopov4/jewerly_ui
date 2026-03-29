@@ -2,7 +2,30 @@
   "name": "Jewelry",
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
-  "colors": {},
+  "colors": {
+    "terminal.background": "#1e1e2e",
+    "terminal.foreground": "#cdd6f4",
+    "terminalCursor.foreground": "#f5c2e7",
+    "terminalCursor.background": "#1e1e2e",
+    "terminal.selectionBackground": "#585b7054",
+    "terminal.inactiveSelectionBackground": "#45475a44",
+    "terminal.ansiBlack": "#45475a",
+    "terminal.ansiRed": "#f38ba8",
+    "terminal.ansiGreen": "#a6e3a1",
+    "terminal.ansiYellow": "#f9e2af",
+    "terminal.ansiBlue": "#89b4fa",
+    "terminal.ansiMagenta": "#cba6f7",
+    "terminal.ansiCyan": "#94e2d5",
+    "terminal.ansiWhite": "#bac2de",
+    "terminal.ansiBrightBlack": "#585b70",
+    "terminal.ansiBrightRed": "#f38ba8",
+    "terminal.ansiBrightGreen": "#a6e3a1",
+    "terminal.ansiBrightYellow": "#f9e2af",
+    "terminal.ansiBrightBlue": "#89b4fa",
+    "terminal.ansiBrightMagenta": "#cba6f7",
+    "terminal.ansiBrightCyan": "#94e2d5",
+    "terminal.ansiBrightWhite": "#cdd6f4"
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -1241,6 +1264,87 @@
       "settings": {
         "foreground": "#89b4fa",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "INI \u2014 section header ([section])",
+      "scope": [
+        "entity.name.section.ini",
+        "entity.name.section.group-title.ini",
+        "punctuation.definition.section.ini",
+        "keyword.other.section.ini",
+        "meta.section.ini"
+      ],
+      "settings": {
+        "foreground": "#f9e2af",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "INI \u2014 key name",
+      "scope": [
+        "keyword.other.key.ini",
+        "support.type.property-name.ini",
+        "variable.other.key.ini",
+        "entity.name.tag.ini"
+      ],
+      "settings": {
+        "foreground": "#89b4fa"
+      }
+    },
+    {
+      "name": "INI \u2014 equals sign",
+      "scope": [
+        "punctuation.separator.key-value.ini",
+        "keyword.operator.ini"
+      ],
+      "settings": {
+        "foreground": "#9399b2"
+      }
+    },
+    {
+      "name": "INI \u2014 string value",
+      "scope": [
+        "string.quoted.double.ini",
+        "string.quoted.single.ini",
+        "string.unquoted.ini"
+      ],
+      "settings": {
+        "foreground": "#a6e3a1"
+      }
+    },
+    {
+      "name": "INI \u2014 number value",
+      "scope": [
+        "constant.numeric.ini",
+        "constant.numeric.integer.ini",
+        "constant.numeric.float.ini"
+      ],
+      "settings": {
+        "foreground": "#fab387"
+      }
+    },
+    {
+      "name": "INI \u2014 boolean value",
+      "scope": [
+        "constant.language.boolean.ini",
+        "constant.language.true.ini",
+        "constant.language.false.ini"
+      ],
+      "settings": {
+        "foreground": "#fab387"
+      }
+    },
+    {
+      "name": "INI \u2014 comment (# and ;)",
+      "scope": [
+        "comment.line.number-sign.ini",
+        "comment.line.semicolon.ini",
+        "punctuation.definition.comment.ini"
+      ],
+      "settings": {
+        "foreground": "#6c7086",
+        "fontStyle": "italic"
       }
     },
     {
