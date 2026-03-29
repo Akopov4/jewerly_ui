@@ -86,7 +86,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 | **Dockerfile**      | Instructions, ARG/ENV, multi-stage builds            |
 | **Docker Compose**  | Services, volumes, networks, anchors                 |
 | **Gherkin**         | Keywords, tags, data tables, docstrings, parameters  |
-| **INI**             | Section headers, keys, values, numbers, booleans, comments |
+| **INI**             | Section headers, keys, strings, comments, italic |
 
 ### XML Highlights
 
@@ -166,6 +166,21 @@ Both themes include a full integrated terminal palette — works on **Windows, L
 | White    | `#cae8ff`   | `#ffffff`   |
 
 - Background: `#0d1117` · Foreground: `#cae8ff` · Cursor: `#ff9bce`
+
+---
+
+### INI Highlights
+
+Both themes support `.ini` / `.cfg` / `.conf` files:
+
+| Token              | Jewelry       | Ocean Jewelry  |
+|--------------------|---------------|----------------|
+| `[section]` header | `#f9e2af` 🟡 bold | `#ffa657` 🟠 bold |
+| Key name           | `#89b4fa` 🔵  | `#79c0ff` 🔵   |
+| String value       | `#a6e3a1` 🟢  | `#56d364` 🟢   |
+| Comment (`#` `;`)  | `#6c7086` ⬜ italic | `#8b949e` ⬜ italic |
+
+> Numbers and booleans use the global theme colors.
 
 ---
 
