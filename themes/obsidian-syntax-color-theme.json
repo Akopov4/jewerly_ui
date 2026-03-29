@@ -1283,6 +1283,7 @@
     {
       "name": "INI \u2014 key name",
       "scope": [
+        "keyword.other.definition.ini",
         "keyword.other.key.ini",
         "support.type.property-name.ini",
         "variable.other.key.ini",
@@ -1311,28 +1312,6 @@
       ],
       "settings": {
         "foreground": "#a6e3a1"
-      }
-    },
-    {
-      "name": "INI \u2014 number value",
-      "scope": [
-        "constant.numeric.ini",
-        "constant.numeric.integer.ini",
-        "constant.numeric.float.ini"
-      ],
-      "settings": {
-        "foreground": "#fab387"
-      }
-    },
-    {
-      "name": "INI \u2014 boolean value",
-      "scope": [
-        "constant.language.boolean.ini",
-        "constant.language.true.ini",
-        "constant.language.false.ini"
-      ],
-      "settings": {
-        "foreground": "#fab387"
       }
     },
     {
@@ -1402,6 +1381,9 @@
     "selfTypeKeyword": "#f38ba8",
     "concept": "#74c7ec",
     "templateFunction": "#89b4fa",
-    "templateType": "#f9e2af"
+    "templateType": "#f9e2af",
+    "keyword:ini": "#89b4fa",
+    "variable:ini": "#89b4fa",
+    "property:ini": "#89b4fa"
   }
 }

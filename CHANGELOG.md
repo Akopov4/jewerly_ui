@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.9] — 2026-03-22
+
+### Fixed
+- INI key names now correctly colored blue in both Jewelry and Ocean Jewelry
+- Removed INI-specific number and boolean rules (now use global theme colors)
+- Added semantic token overrides for INI keys to prevent generic keyword color override
+
 ## [1.3.7] — 2026-03-22
 
 ### Removed

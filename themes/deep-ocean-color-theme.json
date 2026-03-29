@@ -987,18 +987,6 @@
       }
     },
     {
-      "name": "INI \u2014 key name",
-      "scope": [
-        "keyword.other.key.ini",
-        "support.type.property-name.ini",
-        "variable.other.key.ini",
-        "entity.name.tag.ini"
-      ],
-      "settings": {
-        "foreground": "#79c0ff"
-      }
-    },
-    {
       "name": "INI \u2014 equals sign",
       "scope": [
         "punctuation.separator.key-value.ini",
@@ -1020,28 +1008,6 @@
       }
     },
     {
-      "name": "INI \u2014 number value",
-      "scope": [
-        "constant.numeric.ini",
-        "constant.numeric.integer.ini",
-        "constant.numeric.float.ini"
-      ],
-      "settings": {
-        "foreground": "#f0883e"
-      }
-    },
-    {
-      "name": "INI \u2014 boolean value",
-      "scope": [
-        "constant.language.boolean.ini",
-        "constant.language.true.ini",
-        "constant.language.false.ini"
-      ],
-      "settings": {
-        "foreground": "#f0883e"
-      }
-    },
-    {
       "name": "INI \u2014 comment (# and ;)",
       "scope": [
         "comment.line.number-sign.ini",
@@ -1051,6 +1017,15 @@
       "settings": {
         "foreground": "#8b949e",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "INI \u2014 key name",
+      "scope": [
+        "keyword.other.definition.ini"
+      ],
+      "settings": {
+        "foreground": "#79c0ff"
       }
     },
     {
@@ -1108,6 +1083,9 @@
     "selfTypeKeyword": "#ff9bce",
     "concept": "#79c0ff",
     "templateFunction": "#79c0ff",
-    "templateType": "#ffa657"
+    "templateType": "#ffa657",
+    "keyword:ini": "#79c0ff",
+    "variable:ini": "#79c0ff",
+    "property:ini": "#79c0ff"
   }
 }
