@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.1] — 2026-03-22
+
+### Fixed
+- Comments font style set to normal (not italic) in both Jewelry and Ocean Jewelry
+
 ## [1.4.0] — 2026-03-22
 
 ### Added
