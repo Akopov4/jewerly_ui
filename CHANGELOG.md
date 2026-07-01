@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0] — 2026-03-22
+
+### Added
+- Editor semantic token customization: comments rendered in normal font style (not italic)
+  for both Jewelry and Ocean Jewelry themes
+
+### Fixed
+- INI key names correctly colored blue in both themes
+- INI numbers and booleans fall through to global theme colors
+
 ## [1.3.9] — 2026-03-22
 
 ### Fixed

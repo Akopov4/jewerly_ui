@@ -86,7 +86,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 | **Dockerfile**      | Instructions, ARG/ENV, multi-stage builds            |
 | **Docker Compose**  | Services, volumes, networks, anchors                 |
 | **Gherkin**         | Keywords, tags, data tables, docstrings, parameters  |
-| **INI**             | Section headers, keys, strings, comments, italic |
+| **INI**             | Section headers, keys, values, numbers, booleans, comments |
 
 ### XML Highlights
 
@@ -194,6 +194,7 @@ Both themes ship with sensible editor defaults:
 - Mouse wheel zoom: **enabled**
 - Bracket pair colorization: **independent per bracket type**
 - TypeScript / JavaScript auto-imports and suggestions: **enabled**
+- Comments font style: **normal** (not italic)
 
 > These are defaults only — your own `settings.json` values always take priority.
 
