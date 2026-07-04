@@ -3,7 +3,7 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
-    "terminal.background": "#0d1117",
+    "terminal.background": "#1E1E1E",
     "terminal.foreground": "#cae8ff",
     "terminalCursor.foreground": "#ff9bce",
     "terminalCursor.background": "#0d1117",
@@ -38,7 +38,7 @@
       ],
       "settings": {
         "foreground": "#8b949e",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -636,7 +636,7 @@
       ],
       "settings": {
         "foreground": "#8b949e",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -646,7 +646,7 @@
       ],
       "settings": {
         "foreground": "#8b949e",
-        "fontStyle": "bold"
+        "fontStyle": "normal"
       }
     },
     {
@@ -958,7 +958,7 @@
       ],
       "settings": {
         "foreground": "#8b949e",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1016,7 +1016,7 @@
       ],
       "settings": {
         "foreground": "#8b949e",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1076,7 +1076,7 @@
     "operator": "#39d4c5",
     "comment": {
       "foreground": "#8b949e",
-      "italic": true
+      "italic": false
     },
     "lifetime": "#ff9bce",
     "selfKeyword": "#ff9bce",

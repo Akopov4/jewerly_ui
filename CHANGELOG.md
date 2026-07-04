@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.2] — 2026-03-22
+
+### Added
+- Editor font family: 'Times New Roman', FreeSerif, monospace
+- Terminal font family: 'Times New Roman', FreeSerif, monospace
+
+### Changed
+- Jewelry: terminal background changed to black `#000000`
+- Ocean Jewelry: terminal background changed to `#1E1E1E`
+
 ## [1.4.1] — 2026-03-22
 
 ### Fixed

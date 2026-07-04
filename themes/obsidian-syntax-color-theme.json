@@ -3,7 +3,7 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
-    "terminal.background": "#1e1e2e",
+    "terminal.background": "#000000",
     "terminal.foreground": "#cdd6f4",
     "terminalCursor.foreground": "#f5c2e7",
     "terminalCursor.background": "#1e1e2e",
@@ -38,7 +38,7 @@
       ],
       "settings": {
         "foreground": "#6c7086",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -802,7 +802,7 @@
       ],
       "settings": {
         "foreground": "#6c7086",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -832,7 +832,7 @@
       ],
       "settings": {
         "foreground": "#f5c2e7",
-        "fontStyle": "bold"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1000,7 +1000,7 @@
       ],
       "settings": {
         "foreground": "#6c7086",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1252,7 +1252,7 @@
       ],
       "settings": {
         "foreground": "#6c7086",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1323,7 +1323,7 @@
       ],
       "settings": {
         "foreground": "#6c7086",
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     },
     {
@@ -1374,7 +1374,7 @@
     "operator": "#89dceb",
     "comment": {
       "foreground": "#6c7086",
-      "italic": true
+      "italic": false
     },
     "lifetime": "#f5c2e7",
     "selfKeyword": "#f38ba8",
