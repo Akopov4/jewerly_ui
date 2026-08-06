@@ -2,7 +2,7 @@
   "name": "jewelryui",
   "displayName": "JewelryUI",
   "description": "Obsidian-inspired syntax highlighting \u2014 dark, rich, and precisely cut like a gem. Supports Python, Java, JavaScript, TypeScript, CSS, HTML, C, C++, Rust, YAML, TOML, Bash, Dockerfile and Docker Compose.",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "publisher": "Akop4",
   "author": {
     "name": "Akop4"
@@ -70,8 +70,8 @@
       "javascript.suggest.completeFunctionCalls": true,
       "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
       "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
-      "editor.fontFamily": "'Times New Roman', FreeSerif, monospace",
-      "terminal.integrated.fontFamily": "'Times New Roman', FreeSerif, monospace"
+      "editor.fontFamily": "'Courier New', monospace",
+      "terminal.integrated.fontFamily": "'Courier New', monospace"
     }
   }
 }

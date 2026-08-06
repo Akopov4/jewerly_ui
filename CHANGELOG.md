@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.3] — 2026-03-22
+
+### Changed
+- Editor font changed to 'Courier New', monospace (cross-platform safe)
+- Terminal font changed to 'Courier New', monospace (fixes spacing issues on Linux)
+
 ## [1.4.2] — 2026-03-22
 
 ### Added
