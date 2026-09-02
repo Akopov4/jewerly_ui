@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.4] — 2026-03-22
+
+### Added
+- Platform-specific editor font families:
+  - Windows: 'Times New Roman', 'Arial', monospace
+  - Linux: 'Nimbus Roman', monospace
+  - macOS: Times, monospace
+
 ## [1.4.3] — 2026-03-22
 
 ### Changed
