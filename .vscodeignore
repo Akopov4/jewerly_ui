@@ -1,0 +1,4 @@
+*.vsix
+icon.svg
+.git/**
+node_modules/**

@@ -1029,6 +1029,126 @@
       }
     },
     {
+      "name": "Django \u2014 delimiters ({% %} {{ }} {# #})",
+      "scope": [
+        "punctuation.section.embedded.begin.django",
+        "punctuation.section.embedded.end.django",
+        "punctuation.definition.tag.begin.django",
+        "punctuation.definition.tag.end.django",
+        "punctuation.definition.variable.begin.django",
+        "punctuation.definition.variable.end.django",
+        "entity.other.django.tagbegin",
+        "entity.other.django.tagend",
+        "punctuation.definition.tag.jinja",
+        "punctuation.definition.variable.jinja"
+      ],
+      "settings": {
+        "foreground": "#ff7b72"
+      }
+    },
+    {
+      "name": "Django \u2014 tag keyword (if, for, block, extends, load\u2026)",
+      "scope": [
+        "keyword.control.django",
+        "keyword.control.jinja",
+        "keyword.other.django",
+        "entity.name.tag.django",
+        "entity.name.function.tag.django",
+        "support.function.tag.django",
+        "meta.scope.django.template.tag keyword"
+      ],
+      "settings": {
+        "foreground": "#ff7b72",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Django \u2014 operators (in, not, and, or, ==)",
+      "scope": [
+        "keyword.operator.django",
+        "keyword.operator.logical.django",
+        "keyword.operator.comparison.django",
+        "keyword.operator.jinja"
+      ],
+      "settings": {
+        "foreground": "#39d4c5"
+      }
+    },
+    {
+      "name": "Django \u2014 variable",
+      "scope": [
+        "variable.other.django",
+        "variable.other.jinja",
+        "entity.other.django.variable",
+        "variable.parameter.django"
+      ],
+      "settings": {
+        "foreground": "#cae8ff"
+      }
+    },
+    {
+      "name": "Django \u2014 filter",
+      "scope": [
+        "support.function.filter.django",
+        "support.function.filter.jinja",
+        "entity.name.function.filter.django",
+        "meta.function-call.filter.django"
+      ],
+      "settings": {
+        "foreground": "#79c0ff"
+      }
+    },
+    {
+      "name": "Django \u2014 filter pipe and separators",
+      "scope": [
+        "punctuation.separator.filter.django",
+        "punctuation.separator.django",
+        "keyword.operator.filter.django"
+      ],
+      "settings": {
+        "foreground": "#39d4c5"
+      }
+    },
+    {
+      "name": "Django \u2014 string",
+      "scope": [
+        "string.quoted.single.django",
+        "string.quoted.double.django",
+        "string.quoted.django",
+        "string.quoted.single.jinja",
+        "string.quoted.double.jinja"
+      ],
+      "settings": {
+        "foreground": "#56d364"
+      }
+    },
+    {
+      "name": "Django \u2014 number / boolean",
+      "scope": [
+        "constant.numeric.django",
+        "constant.language.django",
+        "constant.language.boolean.django",
+        "constant.numeric.jinja"
+      ],
+      "settings": {
+        "foreground": "#f0883e"
+      }
+    },
+    {
+      "name": "Django \u2014 template comment ({# #} and {% comment %})",
+      "scope": [
+        "comment.block.django",
+        "comment.line.django",
+        "comment.block.django.template",
+        "comment.block.jinja",
+        "punctuation.definition.comment.django"
+      ],
+      "settings": {
+        "foreground": "#8b949e",
+        "fontStyle": "normal"
+      }
+    },
+    {
       "name": "Invalid",
       "scope": [
         "invalid"

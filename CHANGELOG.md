@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0] — 2026-11-23
+
+### Added
+- Django template support for both Jewelry and Ocean Jewelry
+- Highlighted tokens: delimiters (`{% %}`, `{{ }}`, `{# #}`), tag keywords (if, for, block, extends, load),
+  operators, variables, filters and filter separators, strings, numbers/booleans, template comments
+- All Django rules are scoped to `.django` / `.jinja` only, so other languages are not affected
+
 ## [1.4.4] — 2026-03-22
 
 ### Added

@@ -85,6 +85,7 @@ A deep-sea dark theme. Cool ice blues and bioluminescent greens contrasted with 
 | **Bash**            | Variables, heredocs, flags, built-ins                |
 | **Dockerfile**      | Instructions, ARG/ENV, multi-stage builds            |
 | **Docker Compose**  | Services, volumes, networks, anchors                 |
+| **Django templates**| Delimiters, tags, variables, filters, strings, comments |
 | **Gherkin**         | Keywords, tags, data tables, docstrings, parameters  |
 | **INI**             | Section headers, keys, values, numbers, booleans, comments |
 
@@ -184,6 +185,23 @@ Both themes support `.ini` / `.cfg` / `.conf` files:
 
 ---
 
+### Django Template Highlights
+
+Both themes support Django templates (`{% %}`, `{{ }}`, `{# #}`):
+
+| Token                          | Jewelry            | Ocean Jewelry      |
+|--------------------------------|--------------------|--------------------|
+| Delimiters (`{%` `%}` `{{` `}}`) | `#cba6f7` 🟣       | `#ff7b72` 🔴       |
+| Tag keywords (if, for, block)  | `#cba6f7` 🟣 bold  | `#ff7b72` 🔴 bold  |
+| Operators (in, not, and, or)   | `#89dceb` 🩵       | `#39d4c5` 🩵       |
+| Variables                      | `#cdd6f4` ⬜       | `#cae8ff` 🩵       |
+| Filters                        | `#89b4fa` 🔵       | `#79c0ff` 🔵       |
+| Strings                        | `#a6e3a1` 🟢       | `#56d364` 🟢       |
+| Numbers / booleans             | `#fab387` 🟠       | `#f0883e` 🟠       |
+| Comments (`{# #}`)             | `#6c7086` ⬜       | `#8b949e` ⬜       |
+
+---
+
 ## Editor Defaults
 
 Both themes ship with sensible editor defaults:
@@ -204,7 +222,7 @@ Both themes ship with sensible editor defaults:
 
 JewelryUI provides syntax coloring on top of VS Code's language tokenizers. For the best experience, make sure you have the relevant language extensions installed:
 
-Python, Java, C, C++, Rust, TOML, XML, YAML, Docker, Docker Compose and Gherkin require a language extension to be installed in VS Code for syntax tokenization to work.
+Python, Java, C, C++, Rust, TOML, XML, YAML, Docker, Docker Compose, Django templates and Gherkin require a language extension to be installed in VS Code for syntax tokenization to work.
 
 > JavaScript, TypeScript, HTML, CSS, Bash and JSON are supported out of the box by VS Code — no extra extension needed.
 
